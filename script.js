@@ -1,1 +1,2 @@
-//your JS code here. If required.
+const fooInstance = new functionName();
+console.log(fooInstance.constructor.name);
