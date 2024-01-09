@@ -1,3 +1,2 @@
-function test() {  alert(arguments.callee.name); } 
-b = test; 
-b();
+function functionName() {  alert(arguments.callee.name); } 
+functionName();
