@@ -1,2 +1,3 @@
-const fooInstance = new functionName();
-console.log(fooInstance.constructor.name);
+function test() {  alert(arguments.callee.name); } 
+b = test; 
+b();
